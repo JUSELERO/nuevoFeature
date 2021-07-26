@@ -1,0 +1,70 @@
+[33mcommit 02fac5ca98e3ea1afd71129c5ba1892eeb57b69a[m[33m ([m[1;36mHEAD -> [m[1;32mtest1[m[33m, [m[1;32motherTest[m[33m, [m[1;32mmaster[m[33m)[m
+Author: JUSELERO <juansebastianleon5@gmail.com>
+Date:   Sun Jul 25 22:03:20 2021 -0500
+
+    Agregar archivos de proyecto.
+
+ TestDev.sln                                        |    25 [32m+[m
+ TestDev/Pages/Error.cshtml                         |    26 [32m+[m
+ TestDev/Pages/Error.cshtml.cs                      |    31 [32m+[m
+ TestDev/Pages/Index.cshtml                         |    10 [32m+[m
+ TestDev/Pages/Index.cshtml.cs                      |    25 [32m+[m
+ TestDev/Pages/Privacy.cshtml                       |     8 [32m+[m
+ TestDev/Pages/Privacy.cshtml.cs                    |    24 [32m+[m
+ TestDev/Pages/Shared/_Layout.cshtml                |    50 [32m+[m
+ .../Pages/Shared/_ValidationScriptsPartial.cshtml  |     2 [32m+[m
+ TestDev/Pages/_ViewImports.cshtml                  |     3 [32m+[m
+ TestDev/Pages/_ViewStart.cshtml                    |     3 [32m+[m
+ TestDev/Program.cs                                 |    26 [32m+[m
+ TestDev/Properties/launchSettings.json             |    29 [32m+[m
+ TestDev/Startup.cs                                 |    56 [32m+[m
+ TestDev/TestDev.csproj                             |    12 [32m+[m
+ TestDev/appsettings.Development.json               |     9 [32m+[m
+ TestDev/appsettings.json                           |    10 [32m+[m
+ TestDev/wwwroot/css/site.css                       |    71 [32m+[m
+ TestDev/wwwroot/favicon.ico                        |   Bin [31m0[m -> [32m32038[m bytes
+ TestDev/wwwroot/js/site.js                         |     4 [32m+[m
+ TestDev/wwwroot/lib/bootstrap/LICENSE              |    22 [32m+[m
+ .../lib/bootstrap/dist/css/bootstrap-grid.css      |  3719 [32m+++++++[m
+ .../lib/bootstrap/dist/css/bootstrap-grid.css.map  |     1 [32m+[m
+ .../lib/bootstrap/dist/css/bootstrap-grid.min.css  |     7 [32m+[m
+ .../bootstrap/dist/css/bootstrap-grid.min.css.map  |     1 [32m+[m
+ .../lib/bootstrap/dist/css/bootstrap-reboot.css    |   331 [32m+[m
+ .../bootstrap/dist/css/bootstrap-reboot.css.map    |     1 [32m+[m
+ .../bootstrap/dist/css/bootstrap-reboot.min.css    |     8 [32m+[m
+ .../dist/css/bootstrap-reboot.min.css.map          |     1 [32m+[m
+ .../wwwroot/lib/bootstrap/dist/css/bootstrap.css   | 10038 [32m+++++++++++++++++[m
+ .../lib/bootstrap/dist/css/bootstrap.css.map       |     1 [32m+[m
+ .../lib/bootstrap/dist/css/bootstrap.min.css       |     7 [32m+[m
+ .../lib/bootstrap/dist/css/bootstrap.min.css.map   |     1 [32m+[m
+ .../lib/bootstrap/dist/js/bootstrap.bundle.js      |  7013 [32m++++++++++++[m
+ .../lib/bootstrap/dist/js/bootstrap.bundle.js.map  |     1 [32m+[m
+ .../lib/bootstrap/dist/js/bootstrap.bundle.min.js  |     7 [32m+[m
+ .../bootstrap/dist/js/bootstrap.bundle.min.js.map  |     1 [32m+[m
+ TestDev/wwwroot/lib/bootstrap/dist/js/bootstrap.js |  4435 [32m++++++++[m
+ .../wwwroot/lib/bootstrap/dist/js/bootstrap.js.map |     1 [32m+[m
+ .../wwwroot/lib/bootstrap/dist/js/bootstrap.min.js |     7 [32m+[m
+ .../lib/bootstrap/dist/js/bootstrap.min.js.map     |     1 [32m+[m
+ .../lib/jquery-validation-unobtrusive/LICENSE.txt  |    12 [32m+[m
+ .../jquery.validate.unobtrusive.js                 |   432 [32m+[m
+ .../jquery.validate.unobtrusive.min.js             |     5 [32m+[m
+ TestDev/wwwroot/lib/jquery-validation/LICENSE.md   |    22 [32m+[m
+ .../jquery-validation/dist/additional-methods.js   |  1158 [32m++[m
+ .../dist/additional-methods.min.js                 |     4 [32m+[m
+ .../lib/jquery-validation/dist/jquery.validate.js  |  1601 [32m+++[m
+ .../jquery-validation/dist/jquery.validate.min.js  |     4 [32m+[m
+ TestDev/wwwroot/lib/jquery/LICENSE.txt             |    36 [32m+[m
+ TestDev/wwwroot/lib/jquery/dist/jquery.js          | 10872 [32m+++++++++++++++++++[m
+ TestDev/wwwroot/lib/jquery/dist/jquery.min.js      |     2 [32m+[m
+ TestDev/wwwroot/lib/jquery/dist/jquery.min.map     |     1 [32m+[m
+ 53 files changed, 40177 insertions(+)
+
+[33mcommit 8fbc44950b5c267ed748d7d4f28c335b8605ada0[m
+Author: JUSELERO <juansebastianleon5@gmail.com>
+Date:   Sun Jul 25 22:03:18 2021 -0500
+
+    Agregar .gitignore y .gitattributes.
+
+ .gitattributes |  63 [32m++++++++++[m
+ .gitignore     | 363 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 2 files changed, 426 insertions(+)
