@@ -19,6 +19,10 @@ namespace TestDev.Pages
 
         public void OnGet()
         {
+            
         }
+
+        nuewClass precioHoy = new nuewClass();
+        
     }
 }
